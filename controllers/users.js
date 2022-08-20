@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 
+// initially, the list of users is set to 0
 let users = []
 
 export const createUser = (req, res) => {
